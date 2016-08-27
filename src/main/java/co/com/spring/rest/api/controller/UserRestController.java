@@ -22,31 +22,31 @@ public class UserRestController {
 
 		List<User> userList = new ArrayList<User>();
 		User user = new User();
-		user.setName("Juan");
-		user.setLastName("Zapata");
-		user.setPhone("2345677");
-		user.setAddress("Cll 107 Sur # 50 - 99");
+		user.setName("Name 1");
+		user.setLastName("Lastname 1");
+		user.setPhone("111111");
+		user.setAddress("Address 1");
 		userList.add(user);
 
 		user = new User();
-		user.setName("Lina");
-		user.setLastName("Parra");
-		user.setPhone("64565445");
-		user.setAddress("Cll 107 Sur # 50 - 99");
+		user.setName("Name 2");
+		user.setLastName("Lastname 2");
+		user.setPhone("22222");
+		user.setAddress("Address 2");
 		userList.add(user);
 
 		user = new User();
-		user.setName("Daniel");
-		user.setLastName("Zapata");
-		user.setPhone("6668");
-		user.setAddress("Cra 87A #  32 C - 25");
+		user.setName("Name 3");
+		user.setLastName("Lastname 3");
+		user.setPhone("33333");
+		user.setAddress("Address 3");
 		userList.add(user);
 
 		user = new User();
-		user.setName("Miryam");
-		user.setLastName("Calle");
-		user.setPhone("7373737");
-		user.setAddress("Cra 1 # 3 - 4");
+		user.setName("Name 4");
+		user.setLastName("Lastname 4");
+		user.setPhone("444444");
+		user.setAddress("Address 4");
 		userList.add(user);
 
 		return new ResponseEntity<List<User>>(userList, HttpStatus.OK);
